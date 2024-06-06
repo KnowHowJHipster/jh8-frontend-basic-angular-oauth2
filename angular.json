@@ -14,7 +14,7 @@
         }
       },
       "root": "",
-      "sourceRoot": "src/main/webapp",
+      "sourceRoot": "src",
       "prefix": "jhi",
       "architect": {
         "build": {
@@ -29,12 +29,7 @@
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/content",
-              "src/favicon.ico",
-              "src/manifest.webapp",
-              "src/robots.txt"
-            ],
+            "assets": ["src/content", "src/favicon.ico", "src/manifest.webapp", "src/robots.txt"],
             "styles": ["src/content/scss/vendor.scss", "src/content/scss/global.scss"],
             "scripts": []
           },
