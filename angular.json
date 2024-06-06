@@ -23,7 +23,7 @@
             "customWebpackConfig": {
               "path": "./webpack/webpack.custom.js"
             },
-            "outputPath": "build/resources/main/static/",
+            "outputPath": "build/static/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
